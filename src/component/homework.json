@@ -1,0 +1,55 @@
+[
+    {
+        "key": 1,
+        "images": "./public/images/Traveler",
+        "cardtitle": "Traveler",
+        "description": "Built for people going abroad the Traveler App allows you to search a city and get the local weather and attractions for that location." ,
+        "gitlink": "https://github.com/RobWongus/TravelerAppProject1",
+        "livelink": "https://robwongus.github.io/TravelerAppProject1/"
+    },
+
+    {
+        "key": 2,
+        "images": "./public/images/passwordgenerator",
+        "cardtitle": "Password Generator",
+        "description": "Create passwords between 8 and 128 characters with options to use: uppercase, lowercase, symbols, and numbers. " ,
+        "gitlink": "https://github.com/RobWongus/PasswordGenerator",
+        "livelink": "https://robwongus.github.io/PasswordGenerator/"
+    },
+
+    {
+        "key": 3,
+        "images": "./public/images/quiznotes",
+        "cardtitle": "Quiz Notes",
+        "description": "A study tool where you can make flash cards for studying. " ,
+        "gitlink": "https://github.com/RobWongus/QuizNotesProject2",
+        "livelink": "https://fast-scrubland-34492.herokuapp.com/"
+    },
+
+    {
+        "key": 4,
+        "images": "./public/images/employeedirectory",
+        "cardtitle": "Employee Tracker",
+        "description": "A command line interface using node & MYSQL that gives the user the ability to create to make tables for employess with their salaries, id, first name, last name and role.",
+        "gitlink": "https://github.com/RobWongus/HomeworkWeek12MySQLEmployeeTracker",
+        "livelink": ""
+    },
+
+    {
+        "key": 5,
+        "images": "./public/images/notetaker",
+        "cardtitle": "Note Taker",
+        "description": "App that makes al list of created notes that you can delete when finished.",
+        "gitlink": "https://github.com/RobWongus/Week11ExpressHomeworkNoteTaker",
+        "livelink": "https://afternoon-meadow-11405.herokuapp.com/"
+    },
+
+    {
+        "key": 6,
+        "images": "./public/images/EmployeeDirectory",
+        "cardtitle": "Employee Directory",
+        "description": "A quick way to view employee directory and have quick acces to their information.",
+        "gitlink": "https://github.com/RobWongus/homework19reactemployeedirectory",
+        "livelink": "https://robwongus.github.io/homework19reactemployeedirectory/"
+    }
+]
