@@ -6,6 +6,7 @@ import Header from "./Utils/Header";
 import Footer from "./Utils/Footer";
 import Project from "./component/Project";
 
+// "homepage": "http://robwongus.githup.io/deploy-reactprofile",
 
 class App extends React.Component {
   state = {

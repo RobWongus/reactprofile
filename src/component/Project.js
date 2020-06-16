@@ -1,35 +1,50 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Container from './component/Container';
+import assignments from "./homework.json"
 // import ListGroup from "react-bootstrap/ListGroup";
 // import ListGroupItem from "react-bootstrap/ListGroupItem";
 
 function Project() {
     
-return (
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+  return (
+    <>
+      <div className="container-fluid">
+        <div className="row">
+          { assignments.map( hw => (
+            <div className="col-4" key={hw.key}>
+              <Card className="main-card" style={{height: "400px", marginBottom: "18px"}}>
+                <div style={{height: "100px", position: "absolute", top: 0, left: 0}}>
+                  <img src={hw.images} alt={hw.cardtitle} className="img-fluid" style={{height: "100px", width: "100%"}} />
+                </div>
+                <Card.Body style={{ paddingTop: "110px"}}>
+                  <Card.Title>{hw.cardtitle}</Card.Title>
+                  <Card.Text>
+                    {hw.description}
+                  </Card.Text>
 
-    <Container/>
-    
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-  </Card.Body>
-  {/* <ListGroup className="list-group-flush">
-    <ListGroupItem>Cras justo odio</ListGroupItem>
-    <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-    <ListGroupItem>Vestibulum at eros</ListGroupItem>
-  </ListGroup> */}
-  <Card.Body>
-    {/* <Card.Link href={props.link}>Traveler GitHub</Card.Link> */}
-    <Card.Link href="#">Another Link</Card.Link>
-  </Card.Body>
-</Card>
-    );
+                  <Card.Link href={hw.gitlink}>Repo</Card.Link>
+                  <Card.Link href={hw.livelink}>Live</Card.Link>
+                </Card.Body>
+          
+                {/* <ListGroup className="list-group-flush">
+                <ListGroupItem>Cras justo odio</ListGroupItem>
+                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
+                <ListGroupItem>Vestibulum at eros</ListGroupItem>
+                </ListGroup> */}
+              </Card>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <style jsx="true">{`
+        .main-card {
+          height: 400px;
+          margin-bottom: 18px
+        }
+      `}</style>
+    </>
+  );
 }
 
 export default Project;

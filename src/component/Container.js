@@ -1,24 +1,22 @@
 // will take in json data, map instance of, and return component
 // import React from "react";
-import React, { Component } from 'react';
+import React from 'react';
+import assignments from "./homework.json"
 
-import assignments from "./components/homework.json"
-
-class Work extends React.Component {
-
+class Container extends React.Component {
     state = {
         classAssignments: assignments,
-      }
+    }
 
-render() {
-    return (
-        <div className= 'Homework'>
-            
-        </div>
+    render() {
+        return (
+            <>
+               
+            </>
         )
-    
+        
     }
 
 }
 
-export default Work;
+export default Container;
