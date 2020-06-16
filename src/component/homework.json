@@ -28,7 +28,7 @@
 
     {
         "key": 4,
-        "images": "/images/employeedirectory.png",
+        "images": "/images/employeetracker.png",
         "cardtitle": "Employee Tracker",
         "description": "A command line interface using node & MYSQL that gives the user the ability to create to make tables for employess with their salaries, id, first name, last name and role.",
         "gitlink": "https://github.com/RobWongus/HomeworkWeek12MySQLEmployeeTracker",

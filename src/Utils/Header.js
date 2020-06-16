@@ -12,9 +12,9 @@ function Header() {
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">Cheers Bruv!</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home">GitHub</Nav.Link>
-          <Nav.Link href="#features">LinkedIn</Nav.Link>
-          <Nav.Link href="#pricing">Contact</Nav.Link>
+          <Nav.Link href="https://github.com/RobWongus/Week11ExpressHomeworkNoteTaker">GitHub</Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/in/robert-phoenix-630507b/">LinkedIn</Nav.Link>
+          <Nav.Link href="https://docs.google.com/document/d/1ugAFYURbLrMCeXJVCaQiCytCuKD6wGjZlCdweZBF9Lo/edit?usp=sharing">Resume and Contact</Nav.Link>
         </Nav>
         {/* <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />

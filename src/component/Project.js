@@ -21,28 +21,21 @@ function Project() {
                   <Card.Text>
                     {hw.description}
                   </Card.Text>
-
                   <Card.Link href={hw.gitlink}>Repo</Card.Link>
                   <Card.Link href={hw.livelink}>Live</Card.Link>
                 </Card.Body>
-          
-                {/* <ListGroup className="list-group-flush">
-                <ListGroupItem>Cras justo odio</ListGroupItem>
-                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                <ListGroupItem>Vestibulum at eros</ListGroupItem>
-                </ListGroup> */}
               </Card>
             </div>
           ))}
         </div>
       </div>
 
-      <style jsx="true">{`
+      {/* <style jsx="true">{`
         .main-card {
           height: 400px;
           margin-bottom: 18px
         }
-      `}</style>
+      `}</style> */}
     </>
   );
 }
