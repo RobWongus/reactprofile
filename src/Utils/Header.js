@@ -14,7 +14,7 @@ function Header() {
         <Nav className="mr-auto">
           <Nav.Link href="https://github.com/RobWongus/Week11ExpressHomeworkNoteTaker">GitHub</Nav.Link>
           <Nav.Link href="https://www.linkedin.com/in/robert-phoenix-630507b/">LinkedIn</Nav.Link>
-          <Nav.Link href="https://docs.google.com/document/d/1ugAFYURbLrMCeXJVCaQiCytCuKD6wGjZlCdweZBF9Lo/edit?usp=sharing">Resume and Contact</Nav.Link>
+          <Nav.Link href="https://docs.google.com/document/d/1S_5ErNysxbb711DW6CCcMSiF4-N5cGSfD-mUH9U9oGo/edit">Resume and Contact</Nav.Link>
         </Nav>
         {/* <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
